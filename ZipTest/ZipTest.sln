@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipTestApp", "ConsoleApp1\ZipTestApp.csproj", "{B13D3B04-F54F-47C0-B624-708A7D66CBEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipUtil", "ZipProgress\ZipUtil.csproj", "{FC5E6104-03BC-4498-84B5-0032BA8BD95F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B13D3B04-F54F-47C0-B624-708A7D66CBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13D3B04-F54F-47C0-B624-708A7D66CBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13D3B04-F54F-47C0-B624-708A7D66CBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13D3B04-F54F-47C0-B624-708A7D66CBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5E6104-03BC-4498-84B5-0032BA8BD95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5E6104-03BC-4498-84B5-0032BA8BD95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5E6104-03BC-4498-84B5-0032BA8BD95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5E6104-03BC-4498-84B5-0032BA8BD95F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B622B8D-EC1D-4E9A-9258-61F12F2D8B15}
+	EndGlobalSection
+EndGlobal
