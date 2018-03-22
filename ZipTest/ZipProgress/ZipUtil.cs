@@ -43,8 +43,7 @@ namespace ZipUtil
         
         /// <summary>
         /// UnZip a zip file archive
-        /// Must specifify the archive name and destination path (destincationDir)
-        /// NOTE:  Specs called for an output param, but async methods cannot have output parameters
+        /// Must specifify the archive name and destination path (destinationDir)
         /// </summary>
         public static async Task<bool> UnZip(string archiveName, string destinationDir,
                                              IProgress<double> fileProgress = null, IProgress<double> totalProgress = null,
